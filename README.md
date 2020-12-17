@@ -1,6 +1,12 @@
 # Nextcloud-VM-Proxmox
 Nextcloud VM template for Proxmox
 
+This image is ready to import as a template to create nextcloud instances in proxmox
+
+Instructions:
+1. Upload the packaging in / var / lib / vz / dump (if you use it as copies)
+2. From the interface of proxmox >> the storage backups >> restore the packaging (you can configure it according to your needs)
+
 
 Nextcloud VM for PROXMOX 
 - First setup instructions
@@ -28,9 +34,9 @@ Dependencies:
     PHP-smbclient (latest stable version from PECL)
     Nextcloud Server Latest
     
-##########################################################################################################
-##########################################################################################################
-##########################################################################################################
+    
+    
+##################################################################
 
 
 Another alternative is to create a VM with ubuntu 20.04 and follow the instructions from the original repo
